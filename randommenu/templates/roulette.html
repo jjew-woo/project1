@@ -18,7 +18,7 @@
 <link href="/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 <meta content="IE=EmulateIE7" http-equiv=X-UA-Compatible />
-<title>Lunch Wheel</title>
+<title>지니야 오늘은 뭐 먹지?</title>
 <link href=https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css rel=stylesheet type=text/css>
 <script type=text/javascript src=https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js></script>
 <script type=text/javascript src=jquery.tinysort.min.js></script>
@@ -420,9 +420,9 @@ venues = {
 	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-white">
 		<h5 class="my-0 mr-md-auto font-weight-normal"></h5>
 		<nav class="my-2 my-md-0 mr-md-3">
-		  <a class="p-2 text-black-50" href="#">회원가입</a>
+		  <a class="p-2 text-black-50" href="{% url 'home'%}">회원가입</a>
 		</nav>
-		<a class="btn btn-info text-warning" href="#">Login</a>
+		<a class="btn btn-info text-warning" href="{% url 'home'%}">Login</a>
 	</div>
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
     <header class="masthead mb-auto">
