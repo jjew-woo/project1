@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block contents %}
+맛집 게시판
+
+    <div class="container">
+        <h1>{{koreanFood.title}}</h1>    
+        <p>{{koreanFood.body}}</p>
+        <p>{{koreanFood.star}}</p>
+    </div>
+{% endblock%}

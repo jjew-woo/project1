@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block contents %}
+
+<div class = "container">
+    <form action="{% url 'create_koreanFood' %}">
+        <h2>제목 : </h2>
+        <input type="text" name = "title">
+        <br><br>
+        <h2>본문 : </h2>
+        <input type="text" name = "body">
+        <br><br>
+        <h2>별점</h2>
+        <input type="number" name="star">
+        <br><br>
+        <input class = "btn btn-dark" type="submit" value="제출하기">
+    </form>
+
+</div>
+
+
+
+
+{%endblock%}
